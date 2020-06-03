@@ -53,6 +53,13 @@
    kubectl apply -f alb-ingress.yaml
    ```
 
+   Set up Route 53 to have your domain pointed to the ALB (optional):
+
+   ```bash
+   fruity.andrewaws.com.           A.
+   ALIAS ALB_URL.elb.us-east-1.amazonaws.com
+   ```
+
 1. Install Kubernetes Nginx Ingress Controller
 
    ``` bash
