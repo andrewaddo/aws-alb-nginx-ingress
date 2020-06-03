@@ -1,5 +1,7 @@
 # AWS Application Load Balancer - NGINX ingress controller
 
+[place holder] Intro
+
 ## Steps
 
 1. Prerequisites
@@ -100,17 +102,19 @@
 
 1. Install the apps
 
-kubectl apply -f https://raw.githubusercontent.com/andrewaddo/aws-alb-nginx-ingress/master/templates/apps/apple.yaml
-kubectl apply -f https://raw.githubusercontent.com/andrewaddo/aws-alb-nginx-ingress/master/templates/apps/banana.yaml
+   ```bash
+   kubectl apply -f https://raw.githubusercontent.com/andrewaddo/aws-alb-nginx-ingress/master/templates/apps/apple.yaml
+   kubectl apply -f https://raw.githubusercontent.com/andrewaddo/aws-alb-nginx-ingress/master/templates/apps/banana.yaml
+   ```
 
 1. Verification
 
-```bash
-curl https://fruity.andrewaws.com/apple --insecure
-curl https://fruity.andrewaws.com/banana --insecure
-```
+   ```bash
+   curl https://fruity.andrewaws.com/apple --insecure
+   curl https://fruity.andrewaws.com/banana --insecure
+   ```
 
---insecure is required for self-signed certificate.
+   --insecure is required for self-signed certificate.
 
 The result should be as ![verification](./img/fruity-verification.png "verification")
 
