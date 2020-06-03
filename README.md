@@ -39,7 +39,7 @@
    aws acm import-certificate --certificate file://kube-fruity-public.crt --private-key file://kube-fruity-private.key --region us-west-2
    ```
 
-   Note: Replace us-east-1 with your AWS Region.
+   Note: Replace us-west-2 with your AWS Region.
 
    * Create ALB Ingress
 
