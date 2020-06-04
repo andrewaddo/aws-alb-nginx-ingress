@@ -1,6 +1,12 @@
-# AWS Application Load Balancer - NGINX ingress controller
+# AWS Application Load Balancer - ALB Ingress Controller - NGINX ingress controller
 
-[place holder] Intro
+## Intro
+
+This solution provides path based routing from ALB to different applications in the same EKS cluster.
+
+![Ref architecture](https://miro.medium.com/max/2000/1*yjQEXu2kBr0INy2Scp6KiQ.png "Ref architecture")
+
+ref. [Medium post](ttps://medium.com/@sajid2045/aws-eks-ingress-option-alb-nginx-fc64a4a5ea9f)
 
 ## Steps
 
