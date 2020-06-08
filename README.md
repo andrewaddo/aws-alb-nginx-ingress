@@ -143,20 +143,6 @@ The result should be as ![verification](./img/fruity-verification.png "verificat
      * Scalability
      * Source/remote address preservation
 
-## Learning points
-
-1. If you want to define a role within a namespace, use a Role; if you want to define a role cluster-wide, use a ClusterRole.
-1. All Kubernetes clusters have two categories of users: service accounts managed by Kubernetes, and normal users. Normal users are assumed to be managed by an outside, independent service.
-1. Useful commands
-   * kubectl get no
-   * kubectl get po -A -o wide
-   * kubectl get svc -A -o wide
-   * kubectl get ing -A
-   * kubectl get secret
-   * kubectl describe \<e> -n \<namespace>
-   * kubectl logs \<e> -n \<namespace> -f #e: podname; -f to tail
-   * kubectl edit \<e> -n \<namespace>
-
 ## refs
 
 1. <https://aws.amazon.com/premiumsupport/knowledge-center/eks-kubernetes-dashboard-custom-path/>
