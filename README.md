@@ -158,7 +158,7 @@ The result should be as ![verification](./img/fruity-verification.png "verificat
 1. Why do you choose to install nginx-controller manually through templates?
 This <https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/aws/deploy.yaml> creates a NLB, which we don't want for this lab.
 
-1. I came across this (<https://medium.com/@sajid2045/aws-eks-ingress-option-alb-nginx-fc64a4a5ea9f)> can I follow those instructions?
+1. I came across this (<https://medium.com/@sajid2045/aws-eks-ingress-option-alb-nginx-fc64a4a5ea9f> can I follow those instructions?
 The templates are archived into helm which makes it hard for me to fully understand in details how components are tied up together. By breaking down the steps, it is also easier to modify the setup. For example, if I would like to switch to use NLB instead of ALB, I can switch by creating another nlb-ingress.
 
 1. I came across this (<https://aws.amazon.com/premiumsupport/knowledge-center/eks-kubernetes-dashboard-custom-path/)> can I follow those instructions?
